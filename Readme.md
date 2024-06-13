@@ -1,4 +1,7 @@
+```mermaid
+
 flowchart TD
+
     A[Inicio] --> B[Pantalla de Inicio de Sesión]
     B --> C{Verificar Credenciales}
     C -->|RRHH| D[Dashboard de RRHH]
