@@ -1,4 +1,3 @@
-```mermaid
 flowchart TD
     A[Inicio] --> B[Pantalla de Inicio de Sesión]
     B --> C{Verificar Credenciales}
@@ -7,11 +6,11 @@ flowchart TD
     C -->|Jefe| F[Dashboard de Jefe]
 
     D --> G[Gestión de Empleados]
-    D --> H[Gestión de Horarios]
     D --> I[Cálculo de Pagos]
 
     E --> J[Gestión de Asignaciones]
     E --> K[Supervisión de Operaciones]
+    E --> H[Gestión de Horarios]
 
     F --> L[Vista General]
     F --> M[Análisis]
