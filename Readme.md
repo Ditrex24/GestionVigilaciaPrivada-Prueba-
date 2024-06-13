@@ -8,7 +8,7 @@ flowchart TD
     C -->|Gerente| E[Dashboard de Gerente]
     C -->|Jefe| F[Dashboard de Jefe]
 
-    D --> G[Gestión de Empleados]
+    E --> G[Gestión de Empleados]
     D --> I[Cálculo de Pagos]
 
     E --> J[Gestión de Asignaciones]
